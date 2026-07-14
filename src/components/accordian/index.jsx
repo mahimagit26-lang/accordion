@@ -2,6 +2,7 @@
 //multiple selection for one click
 import data from "./data"
 import { useState } from "react";
+import './styles.css'
 
 export default function Accordian() {
     const [selected, setSelected] = useState(null);
